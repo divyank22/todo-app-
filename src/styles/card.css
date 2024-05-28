@@ -1,0 +1,10 @@
+.container{
+    margin:6vh 11vw 0vh 11vw;
+}
+.card{
+    background: gainsboro;
+    border: 1dvh solid black;
+}
+.todol{
+    border-bottom: 1dvh solid black;
+}

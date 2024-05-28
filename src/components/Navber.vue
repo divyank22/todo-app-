@@ -12,7 +12,7 @@ const tabs = {
 <template>
     <nav>
         <ul>
-            <h2 class="navst" >{{ navstart }}</h2>
+            <h2 class="navst" @click="currentTab = 'todoapp'">{{ navstart }}</h2>
             <li class="navsty" @click="currentTab = 'todoapp'">Todo</li>
             <li class="navsty"  @click="currentTab = 'Importants'">Importants</li>
         </ul>
