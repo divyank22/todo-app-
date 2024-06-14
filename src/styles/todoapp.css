@@ -40,3 +40,7 @@ button {
   margin: 0vw 0vw 1vw 2vw;
   border-radius: 12%;
 }
+button:hover{
+  background: aliceblue;
+  color: black;
+}
