@@ -40,7 +40,24 @@ button {
   margin: 0vw 0vw 1vw 2vw;
   border-radius: 12%;
 }
-button:hover{
+
+button:hover {
   background: aliceblue;
   color: black;
+}
+
+@media (max-width: 600px) {
+  .task-input {
+    margin: 1vh auto;
+    width: auto;
+    background-color: gainsboro;
+  }
+  .inputt {
+    width: 80%;
+    margin: 2vh 3vw;
+  }
+  .inputd {
+    width: 80%;
+  }
+  
 }

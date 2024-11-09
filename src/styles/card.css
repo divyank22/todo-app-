@@ -8,3 +8,8 @@
 .todol{
     border-bottom: 1dvh solid black;
 }
+@media (max-width: 600px) {
+    .container{
+        margin: auto;
+    }
+  }

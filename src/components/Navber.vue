@@ -27,7 +27,8 @@ ul{
 .navsty {
     display: inline;
     list-style: none;
-    padding: 0vw 1vw;
+    padding: 0vh 0vw 0vh 1vw;
+    margin: 0vw;
     color: aliceblue;
 }
 .navst {
@@ -36,6 +37,10 @@ ul{
     list-style: none;
     padding: 0vw 1vw;
     color: aliceblue;
+}
+.navsty:hover{
+    background-color: white;
+    color: black;
 }
 nav{
     background-color: black;

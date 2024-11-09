@@ -37,11 +37,14 @@ const removetask = (index) => {
   <h2 class="head">Todos</h2>
   <div class="container">
   <ul class="card">
-    <li class="todol" v-for="(todo, i) in todos" :key="i">
+    <li v-if="todos.length > 0"  class="todol" v-for="(todo, i) in todos" :key="i">
       Title:{{ todo.title }}
       <p>description:{{ todo.description }}</p>
       <button @click="removetask(i)">Remove</button>
       <br>
+    </li>
+    <li v-else>
+      <p>todo is empty</p>
     </li>
   </ul>
 </div>
